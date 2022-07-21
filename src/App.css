@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+body {
+    width: 550px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+}
+header img {
+    width: 30px;
+    height: 31px
+}
+.logo-cont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header p {
+    font-size: 12px;
+    font-family: 'Inter';
+}
+.logo-cont p {
+    font-weight: 700;
+    font-size: 20px;
+}
